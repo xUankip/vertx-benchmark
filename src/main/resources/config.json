@@ -1,0 +1,20 @@
+{
+  "http": {
+    "port": 8080
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "benchmark_db",
+    "user": "postgres",
+    "password": "xuankip",
+    "poolSize": 50,
+    "maxWaitQueueSize": 1000
+  },
+  "vertx": {
+    "eventLoopPoolSize": 16,
+    "workerPoolSize": 50,
+    "internalBlockingPoolSize": 50,
+    "maxEventLoopExecuteTime": 2000000000
+  }
+}
